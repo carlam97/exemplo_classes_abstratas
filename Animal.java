@@ -1,6 +1,7 @@
 public abstract class Animal{
 
-    public  String nome;
+    private String nome;
+    public abstract String emitirSom();
 
     public String getNome(){
         return nome;

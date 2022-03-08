@@ -5,7 +5,7 @@ public class Papagaio extends Ave {
         return "Voa mal";
     }
     @Override
-    public String nadar(){
-        return "Muito mal";
+    public String emitirSom(){
+        return "Sim";
     }
 }
